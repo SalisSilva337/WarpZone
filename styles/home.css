@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: Space Grotesk;
 }
+a{
+    text-decoration: none;
+}
 
 body {
     background: radial-gradient(circle at 20% 20%, #2b235a, #0c0f1f 60%);
