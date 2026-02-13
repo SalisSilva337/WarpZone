@@ -156,6 +156,14 @@ p {
     justify-content: space-between;
     gap: 40px;
 }
+.games_grid{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 70vw;
+    justify-content: center;
+  
+}
 .game{
     display: flex;
     border: 1px solid #6366f1;
@@ -164,8 +172,13 @@ p {
     align-items: center;
     padding: 10px;
     gap: 20px;
-    height: 380px;
-    
+    height: 100%;
+    transition: .1s;
+}
+.game:hover{
+    transform: scale(1.03);
+    opacity: 0.8;
+    cursor: pointer;
 }
 .game img{
     width: 300px;
