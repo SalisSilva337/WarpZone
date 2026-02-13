@@ -1,25 +1,53 @@
-<html>
-    <head>
-        <!--HTML file auto generated using EmulatorJS codehelper-->
-        <style>
-            body, html {
-                margin: 0;
-                padding: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <div style="width:100%;height:100%;max-width:100%">
-            <div id="game"></div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLOZ: Ocarina Of Time</title>
+    <link rel="stylesheet" href="/styles/games.css">
+    <script src="/scripts/games.js" defer></script>
+    <link rel="shortcut icon" href="/imgs/icons/portal-removebg-preview.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <section class="header_section">
+        <div>
+            <a href="/pages/landpage.html">
+                <button>
+                    <img src="/imgs/icons/portal-removebg-preview.png" alt="">
+                    WarpZone
+                </button>
+            </a>
         </div>
-        <script>
-            EJS_player = "#game";
-            EJS_core = "n64";
-            EJS_gameName = "OcarinaOfTime";
-            EJS_color = "#0064ff";
-            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-            EJS_gameUrl = "Legend of Zelda, The - Ocarina of Time (USA).z64";
-        </script>
-        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-    </body>
+
+        <nav>
+            <a href="/pages/home.html">
+                <button>
+                    <img src="/imgs/icons/home.svg" alt="">
+                </button>
+            </a>
+
+            <button class="btn_random_game" onclick="randomGame()">Surpreenda-me</button>
+        </nav>
+    </section>
+
+    <div class="game_container">
+        <div id="game"></div>
+        <p>THE LEGEND OF ZELDA: OCARINA OF TIME</p>
+    </div>
+
+    <script>
+        EJS_player = "#game";
+        EJS_core = "n64";
+        EJS_gameName = "THPS2";
+        EJS_color = "#0064ff";
+        EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
+        EJS_gameUrl = "Legend of Zelda, The - Ocarina of Time (USA).z64";
+    </script>
+
+    <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
+
+</body>
 </html>
