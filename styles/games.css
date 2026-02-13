@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+}
+
+
+body {
+    background: radial-gradient(circle at 20% 20%, #2b235a, #0c0f1f 60%);
+    color: white;
+    overflow-x: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.game_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    gap: 10px;
+}
+#game{
+    border-radius: 10px;
+}
