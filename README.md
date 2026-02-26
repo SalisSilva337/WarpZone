@@ -1,4 +1,5 @@
 <h1>🎮 WarpZone — Documentação do Projeto<\h1>
+<br>
 
 <img width="1919" height="901" alt="Captura de tela 2026-02-13 162708" src="https://github.com/user-attachments/assets/f0ed79bd-2bc1-4c79-a9eb-475a1b768652" />
 <img width="1900" height="664" alt="Captura de tela 2026-02-13 162736" src="https://github.com/user-attachments/assets/9501c9ab-9f65-41c9-93cd-6942e2f5a9c9" />
